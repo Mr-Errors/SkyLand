@@ -27,6 +27,9 @@ island-default-values:
     # NOTE: you can expand the island size from /is admin setsize [number]
     island-size: 75
 
+    # Set the islands height for new islands.
+    island-height: 0
+
     # This is were all the default flags will be set for when a new island is created.
     # You can find the list of all flags here ➔ WIKI LINK!
     default-flags:
@@ -45,32 +48,19 @@ default-worlds:
     
     # The default biome for the world.
     # If the biome is invalid, PLAINS will be set.
-    biome: PLAINS
+    biome: plains
 
   # All settings related to the nether world 
   nether:
     # Should the nether world be enabled?
-    enabled: false
+    enabled: true
 
     # Should the nether be unlocked by default to islands?
     unlocked: true
 
     # The default biome for the world.
     # If the biome is invalid, PLAINS will be set.
-    biome: NETHER_WASTES
-
-
-  # All settings related to the end world 
-  end:
-    # Should the nether world be enabled?
-    enabled: false
-
-    # Should the end be unlocked by default to islands?
-    unlocked: false
-
-    # The default biome for the world.
-    # If the biome is invalid, PLAINS will be set.
-    biome: THE_END
+    biome: nether_wastes
 
 
   
