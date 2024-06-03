@@ -1,1 +1,77 @@
+## -----------------------------------------------------------##
+## ░██████╗██╗░░██╗██╗░░░██╗██╗░░░░░░█████╗░███╗░░██╗██████╗░ ##
+## ██╔════╝██║░██╔╝╚██╗░██╔╝██║░░░░░██╔══██╗████╗░██║██╔══██╗ ##
+## ╚█████╗░█████═╝░░╚████╔╝░██║░░░░░███████║██╔██╗██║██║░░██║ ##
+## ░╚═══██╗██╔═██╗░░░╚██╔╝░░██║░░░░░██╔══██║██║╚████║██║░░██║ ##
+## ██████╔╝██║░╚██╗░░░██║░░░███████╗██║░░██║██║░╚███║██████╔╝ ##
+## ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░ ##
+## -----------------------------------------------------------##
+##                       Author: MrErrors                     ##
+##                        Version: 1.0.1                      ##
+## -----------------------------------------------------------##
+
+# You can change the different type of language that you
+# would like the plugin to use. 
+language: en-lang.yml
+
+
+# All new island default values will be found under here.
+island-default-values:
+
+    # the default island distance between islands.
+    # NOTE: please change this before you start creating new islands
+    # else old island distance will be different from new ones.
+    island-distance: 100
+
+    # the default island size fot all new islands.
+    # NOTE: you can expand the island size from /is admin setsize [number]
+    island-size: 75
+
+    # This is were all the default flags will be set for when a new island is created.
+    # You can find the list of all flags here ➔ WIKI LINK!
+    default-flags:
+        - HOSTILE_SPAWNING:false
+        - ANIMAL_SPAWNING:true
+
+# All world settings related to islands will be found here.
+# 
+default-worlds:
+
+  # This will be the world name for the islands
+  world-name: SkyLand
+
+  # All settings related to the normal world 
+  normal:
+    
+    # The default biome for the world.
+    # If the biome is invalid, PLAINS will be set.
+    biome: PLAINS
+
+  # All settings related to the nether world 
+  nether:
+    # Should the nether world be enabled?
+    enabled: false
+
+    # Should the nether be unlocked by default to islands?
+    unlocked: true
+
+    # The default biome for the world.
+    # If the biome is invalid, PLAINS will be set.
+    biome: NETHER_WASTES
+
+
+  # All settings related to the end world 
+  end:
+    # Should the nether world be enabled?
+    enabled: false
+
+    # Should the end be unlocked by default to islands?
+    unlocked: false
+
+    # The default biome for the world.
+    # If the biome is invalid, PLAINS will be set.
+    biome: THE_END
+
+
+  
 
