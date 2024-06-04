@@ -67,7 +67,7 @@ filler:
   enabled: true
   
   items:
-    1':
+    '1':
      # The material is the item you wish to display
      # NOTE: You can find the list of materials found here ➔ WIKI MENU MATERIALS LINK!
      material: black_stained_glass_pane
