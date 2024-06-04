@@ -5,3 +5,4 @@ Required Plugins:
   - SkBee v3.5.2
   - Skript-Yaml v1.5
   - Skript-Reflect v2.4
+  - FastAsyncWorldEdit v783
