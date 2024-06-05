@@ -1,0 +1,153 @@
+## -----------------------------------------------------------##
+## ░██████╗██╗░░██╗██╗░░░██╗██╗░░░░░░█████╗░███╗░░██╗██████╗░ ##
+## ██╔════╝██║░██╔╝╚██╗░██╔╝██║░░░░░██╔══██╗████╗░██║██╔══██╗ ##
+## ╚█████╗░█████═╝░░╚████╔╝░██║░░░░░███████║██╔██╗██║██║░░██║ ##
+## ░╚═══██╗██╔═██╗░░░╚██╔╝░░██║░░░░░██╔══██║██║╚████║██║░░██║ ##
+## ██████╔╝██║░╚██╗░░░██║░░░███████╗██║░░██║██║░╚███║██████╔╝ ##
+## ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░ ##
+## -----------------------------------------------------------##
+##                       Author: MrErrors                     ##
+##                        Version: 1.0.1                      ##
+## -----------------------------------------------------------##
+
+# The title and the amount of rows for this menu.
+title: "&8SkyLand Island Panel"
+rows: 5
+
+# All items related to the island panel menu
+# NOTE: you can find more options for values found
+# on the wiki found here ➔ WIKI MENU ITEMS LINK!
+items:
+  '1':
+    # The name of item you which to give
+    name: "&fIsland Settings"
+
+    # The slot of the were you wish the item to be set to in the menu
+    # NOTE: You can a numbered inventory on the wiki found here ➔ DOUBLE CHEST INVENTORY IMAGE
+    slot: 10
+
+    # The material is the item you wish to display
+    # NOTE: You can find the list of materials found here ➔ WIKI MENU MATERIALS LINK!
+
+    material: player_head
+    # NOTE: This value is optional it's only used for custom heads
+    # You can find different custom heads at ➔ https://minecraft-heads.com/custom-heads
+
+    skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUxNGQyMjViMjYyZDg0N2M3ZTU1N2I0NzQzMjdkY2VmNzU4YzJjNTg4MmU0MWVlNmQ4YzVlOWNkM2JjOTE0In19fQ"
+
+    # All actions for menus can be found on the wiki found here ➔ WIKI ACTION MENU!
+    action:
+      open-menu: "Island-Settings"
+
+    # This is were the lore of the item is found.
+    lore:
+      - "Test"
+
+  '2':
+    name: "&fIsland Team"
+    slot: 12
+    material: oak_sign
+    action:
+      open-menu: "Island-Team"
+    lore:
+      - "Test"
+
+  '3':
+    name: "&fIsland Level"
+    slot: 14
+    material: experience_bottle
+    action:
+      open-menu: "Island-Level"
+    lore:
+      - "Test"
+  '4':
+    name: "&fIsland Bank"
+    slot: 16
+    material: emerald
+    action:
+      open-menu: "Island-Bank"
+    lore:
+      - "Test"
+
+  '5':
+    name: "&fIsland Top"
+    slot: 20
+    material: clock
+    action:
+      open-menu: "Island-Top"
+    lore:
+      - "Test"
+  '6':
+    name: "&fIsland Shop"
+    slot: 22
+    material: chest
+    action:
+      open-menu: "Island-Shop"
+    lore:
+      - "Test"
+  '7':
+    name: "&fIsland Missions"
+    slot: 24
+    material: writable_book
+    action:
+      open-menu: "Island-Missions"
+    lore:
+      - "Test"
+  '8':
+    name: "&fIsland Upgrades"
+    slot: 30
+    material: lectern
+    action:
+      open-menu: "Island-Upgrades"
+    lore:
+      - "Test"
+  '9':
+    name: "&fIsland Home"
+    slot: 32
+    material: white_bed
+    action:
+      command: "island home"
+    lore:
+      - ""
+      - "&7Click to be teleported to"
+      - "&7your island."
+
+      
+# Filler is the menu border of non-clickable items for layouts
+filler:
+  # Choose if the filler is enabled or not
+  enabled: true
+
+  items:
+    '1':
+      # The material is the item you wish to display
+      # NOTE: You can find the list of materials found here ➔ WIKI MENU MATERIALS LINK!
+      material: black_stained_glass_pane
+
+      # The fill option is if you would like this item to fill the menu
+      # NOTE: You can only have 1 fill option per menu.
+      fill: false
+
+      # The slots value is a list of slots you wish this item to place in the menu
+      # NOTE: You can a numbered inventory on the wiki found here ➔ DOUBLE CHEST INVENTORY IMAGE
+      slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6 
+        - 7
+        - 8
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+
+    
