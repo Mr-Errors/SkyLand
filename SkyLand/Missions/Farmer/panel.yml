@@ -1,0 +1,89 @@
+## -----------------------------------------------------------##
+## ░██████╗██╗░░██╗██╗░░░██╗██╗░░░░░░█████╗░███╗░░██╗██████╗░ ##
+## ██╔════╝██║░██╔╝╚██╗░██╔╝██║░░░░░██╔══██╗████╗░██║██╔══██╗ ##
+## ╚█████╗░█████═╝░░╚████╔╝░██║░░░░░███████║██╔██╗██║██║░░██║ ##
+## ░╚═══██╗██╔═██╗░░░╚██╔╝░░██║░░░░░██╔══██║██║╚████║██║░░██║ ##
+## ██████╔╝██║░╚██╗░░░██║░░░███████╗██║░░██║██║░╚███║██████╔╝ ##
+## ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░ ##
+## -----------------------------------------------------------##
+##                       Author: MrErrors                     ##
+##                        Version: 1.0.1                      ##
+## -----------------------------------------------------------##
+# Should the Farming Missions be enabled or not?
+enabled: true
+
+# The title and the amount of rows for this menu.
+title: "&8SkyLand | Farming Missions"
+rows: 5
+
+# All items related to the island panel menu
+# NOTE: you can find more options for values found
+# on the wiki found here ➔ WIKI MENU ITEMS LINK!
+items:
+    '1':
+        name: "&fWheat Missions"
+        slot: 20
+        material: wheat
+        action:
+            open-missions: carrot-missions
+        lore:
+        - Test
+    '2':
+        name: "&fCarrot Missions"
+        slot: 21
+        material: carrot
+        action:
+            open-missions: carrot-missions
+        lore:
+        - ''
+    '3':
+        name: "&fPotato Missions"
+        slot: 22
+        material: potato
+        action:
+            open-missions: potato-missions
+        lore:
+        - ''
+    '4':
+        name: "&fMelon Missions"
+        slot: 23
+        material: melon_slice
+        action:
+            open-missions: melon-missions
+        lore:
+        - ''
+    '5':
+        name: "&fBeetRoot Missions"
+        slot: 24
+        material: beetroot
+        action:
+            open-missions: beetroot-missions
+        lore:
+        - ''
+
+# Filler is the menu border of non-clickable items for layouts
+filler:
+    enabled: true
+    items:
+        '1':
+            material: black_stained_glass_pane
+            fill: false
+            slots:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 36
+            - 37
+            - 38
+            - 39
+            - 40
+            - 41
+            - 42
+            - 43
+            - 44
